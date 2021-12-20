@@ -3,7 +3,7 @@ cuisine_shuffle = favourite_type.shuffle.first
 check = ["English", "Italian", "Takeout", "Chinese", "Nigerian"]
 
 def italian_meals 
-  ["Pizza", "Cabonara", "Lasagne", "Spagetti", "Minestrone", "Ravioli", "Risotti", "Tagliatelle", "Gnocci"].shuffle.first
+  ["Pizza","Cabonara", "Lasagne", "Spagetti", "Minestrone", "Ravioli", "Risotti", "Tagliatelle", "Gnocci"].shuffle.first
 end
 
 def english_meals
@@ -19,7 +19,7 @@ def chinese_meals
 end
 
 def nigerian_meals
-  ["Pounded Yam", "Jollof Rice", "Rice & Stew", "Garri", "Eba"].shuffle.first
+  ["Pounded Yam", "Jollof Rice", "Rice & Stew", "Garri", "Eba", "Fried Rice"].shuffle.first
 end 
 
 puts "Do you have a preference for a cuisine? Please answer Y or N. If so the options available are Italian, English, Takeout, Chinese and Nigerian."

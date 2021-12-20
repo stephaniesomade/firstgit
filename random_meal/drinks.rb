@@ -1,5 +1,5 @@
 def drinks_available
-  drinks = ["Water", "Water", "Water", "Orange Juice", "Apple Juice", "Cranberry Juice", "Ribena", "Squash", "Coke", "Fanta", "Tea", "Hot Chocolate"]
+  drinks = ["Water", "Water", "Water", "Orange Juice", "Tropical Juice", "Apple Juice", "Cranberry Juice", "Ribena", "Squash", "Coke", "Fanta", "Tea", "Hot Chocolate"]
 # Water appears more than once to increase chances of Water being selected.
 end
 drinks = drinks_available.shuffle.first
@@ -8,7 +8,7 @@ check = ["HOT", "COLD", "FIZZY", "JUICE"]
 hot_drinks = ["Tea", "Hot Chocolate"].shuffle.first
 cold_drinks = ["Water", "Water", "Water", "Ribena", "Squash"].shuffle.first
 fizzy_drinks =["Coke", "Fanta"].shuffle.first
-juice_drinks = ["Apple Juice", "Cranberry Juice", "Orange Juice"].shuffle.first
+juice_drinks = ["Apple Juice", "Tropical Juice","Cranberry Juice", "Orange Juice"].shuffle.first
 
 puts "Do you have a preference for the type of drink? Please answer Y or N."
 
